@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+   
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<style>
+    .carousel-slider img{
+      width: 100%;
+      height: 92vh;
+    }
+
+    section{
+      margin-top: 150px;
+    }
+
+    .go img{
+      width: 100%;
+      height: 300px;
+    }
+
+    .card-image img{
+      height: 250px;
+      width: auto;
+    }
+    @media only screen and (max-width: 699px){
+        .heading{
+          font-size: 30px;
+        }
+
+        .offset-l4 hr{
+          margin-left: 100px;
+          width: 180%;
+        }
+
+    }
+</style>
+
+
+    </head>
+
+    <body>
+
+
+<nav class="blue lighten-1">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">CodeWithSahil</a>
+      <a href="#"   data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="badges.html">Contact us</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+        <!-- Modal Trigger -->
+        <a class="waves-effect waves-light btn modal-trigger" href="#modal1">SignUp</a>
+
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="badges.html">Contact us</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+    <!-- Modal Trigger -->
+  <a class="waves-effect waves-light btn modal-trigger" href="#modal1">SignUp</a>
+
+  </ul>
+
+
+
+  <!--full width crousel -->
+  <div class="carousel carousel-slider">
+    <a class="carousel-item" href="#one!"><img src="images/blue_sea.jpg"></a>
+    
+    <div class="carousel-fixed-item white-text center">
+      <h1 class="heading">Home is sweet home enjoy </h1>
+      <p  class="para">The one who love our presence</p>
+      <a class="waves-effect waves-light btn blue">MORE INFO
+        <i class="material-icons right">send</i>
+      </a>
+    </div>
+
+
+    <a class="carousel-item" href="#two!"><img src="images/mountain3.jpg"></a>
+    <a class="carousel-item" href="#three!"><img src="images/black.jpg"></a>
+    <a class="carousel-item" href="#four!"><img src="images/sea.jpg"></a>
+  </div>
+
+
+  <!-- floating action Button -->
+  <div class="fixed-action-btn">
+  <a class="btn-floating btn-large red">
+    <i class="large material-icons">mode_edit</i>
+  </a>
+  <ul>
+    <li><a class="btn-floating red"><i class="material-icons">insert_chart</i></a></li>
+    <li><a class="btn-floating yellow darken-1"><i class="material-icons">format_quote</i></a></li>
+    <li><a class="btn-floating green"><i class="material-icons">publish</i></a></li>
+    <li><a class="btn-floating blue"><i class="material-icons">attach_file</i></a></li>
+  </ul>
+</div>
+
+
+
+    <!-- about us -->
+    <section>
+      <h3 class="center blue-text darken-4">About us</h3>
+      <div class="row">
+        <div class="col s4 m4 l4 offset-l4"><hr></div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col m6 l6 s12 go">
+            <img src="images/mountain3.jpg" class="responsive-img">
+          </div>
+
+          <div class="col m6 l6 s12">
+            <h2>Who am I?</h2>
+            <p>mages can be styled in different ways using MaterializeResponsive ImagesTo make images resize responsively to page width, you can add the class responsive-img to your image tag. It will now have a max-width: 100% and height:auto.
+            Help Materialize on this project and is greatly appreciated.
+            </p>
+            <a class="waves-effect waves-light btn blue">MORE INFO</a>
+          </div>
+        </div>
+    </div>
+    </section>
+
+<!-- our services -->
+    <section>
+       <h3 class="center blue-text darken-4">Our Services</h3>
+      <div class="row">
+        <div class="col s4 m4 l4 offset-l4"><hr></div>
+      </div>
+      
+<div class="container">
+    <div class="row">
+
+    <div class="col m4 l4 s12">
+      <div class="card hoverable" >
+        <div class="card-image">
+          <img src="images/sea.jpg" class="responsive-img">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+
+         <div class="card-action">
+          <a href="#" class="blue-text">This is a link</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col m4 l4 s12">
+      <div class="card hoverable" >
+        <div class="card-image">
+          <img src="images/sea2.jpg" class="responsive-img">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+
+         <div class="card-action">
+          <a href="#" class="blue-text">This is a link</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="col m4 l4 s12">
+      <div class="card hoverable" >
+        <div class="card-image">
+          <img src="images/blue_sea.jpg" class="responsive-img">
+          <span class="card-title">Card Title</span>
+          <a class="btn-floating halfway-fab waves-effect waves-light red"><i class="material-icons">add</i></a>
+        </div>
+        <div class="card-content">
+          <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
+        </div>
+
+         <div class="card-action">
+          <a href="#" class="blue-text"> This is a link</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    </section>
+
+
+    <!-- /////////////////our gallary//////////////////// -->
+
+    <section>
+      <h3 class="center blue-text darken-4">Our Gallary</h3>
+      <div class="row">
+        <div class="col s4 m4 l4 offset-l4"><hr></div>
+      </div>
+
+      <div class="row">
+        <div class="col l4 m4 s12 ">
+          <img src="images/sunset-ship.jpg" class="responsive-img materialboxed" data-caption="A picture of a way with a group of trees in a park">
+        </div>
+
+        <div class="col l4 m4 s12 ">
+          <img src="images/black.jpg" class="responsive-img materialboxed">
+        </div>
+
+        <div class="col l4 m4 s12 ">
+          <img src="images/river.jpg" class="responsive-img materialboxed">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col l4 m4 s12 ">
+          <img src="images/sunset-ship.jpg" class="responsive-img materialboxed">
+        </div>
+
+        <div class="col l4 m4 s12 ">
+          <img src="images/black.jpg" class="responsive-img materialboxed">
+        </div>
+
+        <div class="col l4 m4 s12 ">
+          <img src="images/river.jpg" class="responsive-img materialboxed">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col l4 m4 s12 ">
+          <img src="images/sunset-ship.jpg" class="responsive-img materialboxed">
+        </div>
+
+        <div class="col l4 m4 s12 ">
+          <img src="images/black.jpg" class="responsive-img materialboxed">
+        </div>
+
+        <div class="col l4 m4 s12 ">
+          <img src="images/river.jpg" class="responsive-img materialboxed">
+        </div>
+      </div>
+    </section>
+
+
+    <!-- ///////////////////////contact us/////////////////// -->
+ <section>
+      <h3 class="center blue-text darken-4">Contact Us</h3>
+      <div class="row">
+        <div class="col s4 m4 l4 offset-l4"><hr></div>
+      </div>
+
+  <div class="row">
+
+    <div class=" col m6 l6 offset-l3">
+      <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate" autocomplete="off">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate" autocomplete="off">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="mobile" type="text" class="validate" autocomplete="off" data-length="10">
+          <label for="mobile">Mobile number</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate" autocomplete="off">
+          <label for="email">Email</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Textarea</label>
+        </div>
+      </div>
+
+      <div class="file-field input-field">
+      <div class="btn">
+        <span>File</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
+
+      <a class="btn waves-effect waves-light" onclick="M.toast({html: 'Your form is submitted !'})" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </a>
+      
+    </form>
+  </div>
+
+</div>
+</div>
+
+</section>    
+
+
+
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+     
+
+<div class="row">
+
+  <h3 class="center blue-text darken-4">Contact Us</h3>
+      <div class="row">
+        <div class="col s4 m4 l4 offset-l4"><hr></div>
+      </div>
+
+    <div class=" col m6 l6 offset-l3">
+      <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="Placeholder" id="first_name" type="text" class="validate" autocomplete="off">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate" autocomplete="off">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="mobile" type="text" class="validate" autocomplete="off" data-length="10">
+          <label for="mobile">Mobile number</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate" autocomplete="off">
+          <label for="email">Email</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">Textarea</label>
+        </div>
+      </div>
+
+      <div class="file-field input-field">
+      <div class="btn">
+        <span>File</span>
+        <input type="file">
+      </div>
+      <div class="file-path-wrapper">
+        <input class="file-path validate" type="text">
+      </div>
+    </div>
+
+      <a class="btn waves-effect waves-light" onclick="M.toast({html: 'Your form is submitted !'})" type="submit" name="action">Submit
+    <i class="material-icons right">send</i>
+  </a>
+      
+    </form>
+  </div>
+
+</div>
+</div>
+
+
+
+    </div>
+    
+  </div>
+
+
+<!-- //////////////footer//////////////// -->
+
+ <footer class="page-footer blue">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Code With Sahil</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Copyright Sahilsingh jubbal
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+
+
+    <script>
+      $(document).ready(function(){
+    $('.sidenav').sidenav();
+  });
+
+      $('.carousel.carousel-slider').carousel({
+      fullWidth: true,
+      indicators:true
+    });
+
+      $('.fixed-action-btn').floatingActionButton();
+
+       $('.materialboxed').materialbox();
+
+       $('input#mobile').characterCounter();
+        $('.modal').modal();
+    </script>
+
+    </body>
+
+    
+  </html>

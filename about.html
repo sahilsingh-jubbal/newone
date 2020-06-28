@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+      
+      <!--Let browser know website is optimized for mobile-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+   
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+      <!--Import Google Icon Font-->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+<style>
+    .carousel-slider img{
+      width: 100%;
+      height: 92vh;
+    }
+
+    section{
+      margin-top: 150px;
+    }
+
+    .go img{
+      width: 100%;
+      height: 300px;
+    }
+
+    .card-image img{
+      height: 250px;
+      width: auto;
+    }
+    @media only screen and (max-width: 699px){
+        .heading{
+          font-size: 30px;
+        }
+
+        .offset-l4 hr{
+          margin-left: 100px;
+          width: 180%;
+        }
+
+    }
+</style>
+
+
+    </head>
+
+    <body>
+
+
+<nav class="blue lighten-1">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo">CodeWithSahil</a>
+      <a href="#"   data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Home</a></li>
+        
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="badges.html">Contact us</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About Us</a></li>
+    <li><a href="badges.html">Contact us</a></li>
+    <li><a href="mobile.html">Mobile</a></li>
+  </ul>
+
+  <!-- about us -->
+    <section>
+      <h3 class="center blue-text darken-4">About us</h3>
+      <div class="row">
+        <div class="col s4 m4 l4 offset-l4"><hr></div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col m6 l6 s12 go">
+            <img src="images/mountain3.jpg" class="responsive-img">
+          </div>
+
+          <div class="col m6 l6 s12">
+            <h2>Who am I?</h2>
+            <p>mages can be styled in different ways using MaterializeResponsive ImagesTo make images resize responsively to page width, you can add the class responsive-img to your image tag. It will now have a max-width: 100% and height:auto.
+            Help Materialize on this project and is greatly appreciated.
+            </p>
+            <a class="waves-effect waves-light btn blue">MORE INFO</a>
+          </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- collapse sections -->
+
+
+    <section>
+      <h3 class="center blue-text darken-4">My College Degree</h3>
+      <div class="row">
+        <div class="col s4 m4 l4 offset-l4"><hr></div>
+      </div>
+
+<div class="container">
+      <ul class="collapsible">
+    <li>
+      <div class="collapsible-header"><i class="material-icons">filter_drama</i>10th</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">place</i>12th</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+    <li>
+      <div class="collapsible-header"><i class="material-icons">whatshot</i>Btech</div>
+      <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+    </li>
+  </ul>
+</div>
+    </section>
+
+
+<!-- ////////////////footer////////////// -->
+
+ <footer class="page-footer blue">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text">Code With Sahil</h5>
+                <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Links</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Copyright Sahilsingh jubbal
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+
+
+
+
+    <script>
+      $(document).ready(function(){
+    $('.sidenav').sidenav();
+    $('.collapsible').collapsible();
+  });
+
+    </script>
+
+    </body>
+
+    
+  </html>
